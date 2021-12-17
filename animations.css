@@ -1,0 +1,153 @@
+@keyframes melee-char {
+  0% {
+    transform: scale(1) translate(0);
+  }
+  5% {
+      transform: scale(1) translate(0);
+  }
+  30% {
+      transform: scale(1) translate(180px);
+  }
+  35% {
+      transform: scale(1) translate(180px);
+  }
+  40% {
+      transform: scale(1) translate(180px);
+  }
+  45% {
+      transform: scale(1) translate(200px);
+  }
+  50% {
+      transform: scale(1) translate(195px);
+  }
+  55% {
+      transform: scale(1) translate(200px);
+  }
+  60% {
+      transform: scale(1) translate(180px);
+  }
+  65% {
+      transform: scale(1) translate(180px);
+  }
+  70% {
+      transform: scale(1) translate(180px);
+  }
+  95% {
+      transform: scale(1) translate(0);
+  }
+  100% {
+      transform: scale(1) translate(0);
+  }
+}
+.melee-char {
+  animation: melee-char 2s ease 0s normal none;
+}
+
+@keyframes melee-enemy {
+  0% {
+    transform: scale(1) translate(0);
+  }
+  5% {
+      transform: scale(1) translate(0);
+  }
+  30% {
+      transform: scale(1) translate(-180px);
+  }
+  35% {
+      transform: scale(1) translate(-180px);
+  }
+  40% {
+      transform: scale(1) translate(-180px);
+  }
+  45% {
+      transform: scale(1) translate(-200px);
+  }
+  50% {
+      transform: scale(1) translate(-195px);
+  }
+  55% {
+      transform: scale(1) translate(-200px);
+  }
+  60% {
+      transform: scale(1) translate(-180px);
+  }
+  65% {
+      transform: scale(1) translate(-180px);
+  }
+  70% {
+      transform: scale(1) translate(-180px);
+  }
+  95% {
+      transform: scale(1) translate(0);
+  }
+  100% {
+      transform: scale(1) translate(0);
+  }
+}
+.melee-enemy {
+  animation: melee-enemy 2s ease 0s normal none;
+}
+
+
+@keyframes ranged {
+  
+}
+.ranged-animation {
+  animation: ranged 2s ease 0s normal none;
+}
+
+@keyframes spell {
+  
+}
+.spell-animation {
+  animation: spell 2s ease 0s normal none;
+}
+
+@keyframes buff {
+  
+}
+.buff-animation {
+  animation: buff 2s ease 0s normal none;
+}
+
+@keyframes damage-char {
+  0% {
+      transform: scale(1) translate(0);
+  }
+  25% {
+      transform: scale(1) translate(-10px);
+  }
+  50% {
+      transform: scale(1) translate(-15px);
+  }
+  75% {
+      transform: scale(1) translate(-10px);
+  }
+  100% {
+      transform: scale(1) translate(0);
+  }
+}
+.dmg-char {
+  animation: damage-char 1s ease 0s normal none;
+}
+
+@keyframes damage-enemy {
+  0% {
+    transform: scale(1) translate(0);
+  }
+  25% {
+      transform: scale(1) translate(10px);
+  }
+  50% {
+      transform: scale(1) translate(15px);
+  }
+  75% {
+      transform: scale(1) translate(10px);
+  }
+  100% {
+      transform: scale(1) translate(0);
+  }
+}
+.dmg-enemy {
+  animation: damage-enemy 1s ease 0s normal none;
+}
